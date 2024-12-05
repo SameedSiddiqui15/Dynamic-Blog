@@ -1,6 +1,5 @@
 import React from 'react'
 import BlogCard from "../../components/BlogPageCard"
-import Link from 'next/link';
 
 export default function Blog() {
   const posts = [

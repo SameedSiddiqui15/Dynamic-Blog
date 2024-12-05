@@ -26,8 +26,8 @@ export default function Feature() {
                             "Edge Computing",
                             "Internet of Things (IoT)",
                         ].map((category, index) =>(
-                            <Link href={'../../Blog'}>
-                            <div className="relative group px-2 py-6 bg-white rounded-lg shadow-lg hover:bg-blue-700 hover:text-white hover:border-none transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer flex items-center justify-center text-neutral-600" key={index}>
+                            <Link href={'../../Blog'} key={index}>
+                            <div className="relative group px-2 py-6 bg-white rounded-lg shadow-lg hover:bg-blue-700 hover:text-white hover:border-none transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer flex items-center justify-center text-neutral-600">
                                 <p className="text-center text-sm font-serif">{category}</p>
                                 <div className="absolute inset-0 border-2 border-transparent rounded-lg transition duration-300 ease-in-out"></div>
                             </div>
